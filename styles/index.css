@@ -1,12 +1,11 @@
-@import url('_vars.css');
+@import url('imports/vars.css');
 
 @import url('../vendor/global-reset/global-reset.css');
 @import url('../vendor/bootstrap/bootstrap.css');
 
-@import url('_fonts.css');
-@import url('_globals.css');
-@import url('_media.css');
-
+@import url('imports/fonts.css');
+@import url('imports/globals.css');
+@import url('imports/media.css');
 
 .head-logo span{
     font-family: 'Peace Sans', sans-serif;
