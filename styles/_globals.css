@@ -1,0 +1,43 @@
+.g-bg-blue{
+    background: var(--blue);
+}
+.g-color-blue{
+    color: var(--blue);
+}
+.g-color-white{
+    color: #fff;
+}
+.g-nowrap{
+    white-space: nowrap;
+}
+.g-td-n{
+    text-decoration: none;
+}
+.g-pos-relative{
+    position: relative;
+}
+
+.g-btn{
+    padding: 10px 25px 8px 25px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    white-space: nowrap;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: opacity linear .3s;
+}
+@media (max-width : 576px) {
+    .g-btn{
+        padding: 10px 20px 8px 20px;
+        font-size: 10px;
+    }
+}
+.g-btn-orange{
+    color: #fff;
+    background-color: var(--orange);
+}
+.g-btn-orange:hover{
+    color: #fff;
+    opacity: .9;
+}
