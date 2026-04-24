@@ -1,5 +1,11 @@
+.gap-15{
+    gap: 15px;
+}
 .g-bg-blue{
-    background: var(--blue);
+    background-color: var(--blue);
+}
+.g-bg-light-blue{
+    background-color: var(--light-blue);
 }
 .g-color-blue{
     color: var(--blue);
@@ -7,8 +13,27 @@
 .g-color-white{
     color: #fff;
 }
+.fz-14{
+    font-size: 14px;
+    line-height: 18px;
+}
+.g-ff-peace{
+    font-family: 'Peace Sans', sans-serif;
+}
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-700{
+    font-weight: 700;
+}
 .g-nowrap{
     white-space: nowrap;
+}
+.g-uppercase{
+    text-transform: uppercase;
 }
 .g-td-n{
     text-decoration: none;
