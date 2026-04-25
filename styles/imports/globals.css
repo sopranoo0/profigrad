@@ -1,5 +1,5 @@
-.gap-15{
-    gap: 15px;
+.gap-1rem{
+    gap: 1rem;
 }
 .g-bg-blue{
     background-color: var(--blue);
@@ -7,15 +7,53 @@
 .g-bg-light-blue{
     background-color: var(--light-blue);
 }
+.g-bg-white{
+    background-color: #fff;
+}
 .g-color-blue{
     color: var(--blue);
+}
+.g-color-orange{
+    color: var(--orange);
+}
+.g-color-black{
+    color: var(--black);
 }
 .g-color-white{
     color: #fff;
 }
-.fz-14{
-    font-size: 14px;
-    line-height: 18px;
+.fz-0875rem{
+    font-size: 0.875rem;
+    line-height: 1.1rem;
+}
+.fz-110rem{
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+}
+.fz-125rem{
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+}
+.fz-150rem{
+    font-size: 1.5rem;
+    line-height: 1.4rem;
+}
+.fz-200rem{
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+.fz-300rem{
+    font-size: 3rem;
+    line-height: 3rem;
+}
+.brs-1rem{
+    border-radius: 1rem;
+}
+.brs-2rem{
+    border-radius: 2rem;
+}
+.brs-3rem{
+    border-radius: 3rem;
 }
 .g-ff-peace{
     font-family: 'Peace Sans', sans-serif;
@@ -38,24 +76,35 @@
 .g-td-n{
     text-decoration: none;
 }
-.g-pos-relative{
-    position: relative;
+.fit-cover{
+    object-fit: cover;
+}
+.g-link{
+    text-decoration: underline;
+}
+.g-link:hover{
+    text-decoration: none;
+}
+.g-hover-opacity{
+    transition: opacity linear .3s;
+}
+.g-hover-opacity:hover{
+    opacity: .9;
 }
 
 .g-btn{
-    padding: 10px 25px 8px 25px;
-    border-radius: 10px;
-    font-size: 12px;
+    padding: 0.625rem 1.5rem .5rem 1.5rem;
+    border-radius: 0.7rem;
+    font-size: 0.75rem;
     font-weight: 700;
     white-space: nowrap;
     text-transform: uppercase;
-    text-decoration: none;
     transition: opacity linear .3s;
 }
 @media (max-width : 576px) {
     .g-btn{
-        padding: 10px 20px 8px 20px;
-        font-size: 10px;
+        padding: 0.625rem 1.3rem .5rem 1.3rem;
+        font-size: 0.625rem;
     }
 }
 .g-btn-orange{

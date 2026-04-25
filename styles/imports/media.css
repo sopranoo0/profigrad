@@ -34,12 +34,22 @@
 
 /* Small (sm) */
 @media (min-width : 576px) {
-
+    .fz-sm-200rem{
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
+    .fz-sm-150rem{
+        font-size: 1.5rem;
+        line-height: 1.4rem;
+    }
 }
 
 /* Medium (md) */
 @media (min-width : 768px) {
-
+    .fz-md-150rem{
+        font-size: 1.5rem;
+        line-height: 1.4rem;
+    }
 }
 
 /* Large (lg) */
@@ -50,6 +60,10 @@
 /* Extra large (xl) */
 @media (min-width : 1200px) {
 
+    .fz-xl-200rem{
+        font-size: 2rem;
+        line-height: 2.4rem;
+    }
 }
 
 /* Extra extra large (xxl) */

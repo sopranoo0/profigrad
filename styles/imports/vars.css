@@ -9,6 +9,7 @@
   --orange: rgb(255, 130, 0); /* #ff8200 */
   --blue: rgb(0, 100, 175); /* #0066af */
   --light-blue: rgb(240, 250, 255); /* #f1f8fc */
+  --black: rgb(50, 50, 50);/* #303032 */
 
   --radius: .5rem;
 }

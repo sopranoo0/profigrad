@@ -11,7 +11,7 @@ small { font-size: .8rem; }
 input:user-invalid, textarea:user-invalid { border-color: red; }
 input:user-valid, textarea:user-valid { border-color: green; }
 textarea { resize: vertical; }
-input { outline: none; }
+input, button { outline: none; border: none; }
 [type=button]:not(:disabled), [type=reset]:not(:disabled),
 [type=submit]:not(:disabled), button:not(:disabled) { cursor: pointer; }
 button, input, select, textarea { font-family: inherit; font-size: inherit; line-height: inherit; }
