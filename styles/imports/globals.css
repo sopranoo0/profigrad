@@ -1,6 +1,9 @@
 .gap-1rem{
     gap: 1rem;
 }
+.gap-2rem{
+    gap: 2rem;
+}
 .g-bg-blue{
     background-color: var(--blue);
 }
@@ -10,11 +13,17 @@
 .g-bg-white{
     background-color: #fff;
 }
+.g-bg-light-orange{
+    background-color: var(--light-orange);
+}
 .g-color-blue{
     color: var(--blue);
 }
 .g-color-orange{
     color: var(--orange);
+}
+.g-color-stars{
+    color: var(--stars);
 }
 .g-color-black{
     color: var(--black);
@@ -22,9 +31,12 @@
 .g-color-white{
     color: #fff;
 }
+.g-color-gray{
+    color: var(--gray);
+}
 .fz-0875rem{
     font-size: 0.875rem;
-    line-height: 1.1rem;
+    line-height: 1.2rem;
 }
 .fz-110rem{
     font-size: 1.1rem;
@@ -90,6 +102,9 @@
 }
 .g-hover-opacity:hover{
     opacity: .9;
+}
+.g-cursor-grab{
+    cursor: grab;
 }
 
 .g-btn{

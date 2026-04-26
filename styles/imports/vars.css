@@ -7,9 +7,12 @@
   --gutter: 1.25rem;
 
   --orange: rgb(255, 130, 0); /* #ff8200 */
+  --light-orange: rgb(255, 245, 225); /* #fff5e0 */
   --blue: rgb(0, 100, 175); /* #0066af */
+  --stars: rgb(255, 200, 100); /* #ffc961 */
   --light-blue: rgb(240, 250, 255); /* #f1f8fc */
   --black: rgb(50, 50, 50);/* #303032 */
+  --gray: rgb(170, 170, 170); /* #aaa */
 
   --radius: .5rem;
 }
@@ -20,10 +23,9 @@ html {
 
 body {
   font-family: var(--font-family);
-  font-weight: 400;
   line-height: var(--line-height);
-  background-color: var(--body-bg);
-  color: var(--body-color);
+  font-weight: 400;
+  color: var(--black);
   position: relative;
   overflow-x: hidden;
   min-width: 320px;
