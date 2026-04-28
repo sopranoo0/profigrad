@@ -21,9 +21,6 @@
         max-height: 0;
     }
 }
-.menu{
-    gap: .75rem 1.25rem;
-}
 .menu a {
     color: #fff;
     font-size: 1.25rem;
