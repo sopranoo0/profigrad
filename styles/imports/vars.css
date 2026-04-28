@@ -6,13 +6,13 @@
   --container: 1140px;
   --gutter: 1.25rem;
 
-  --orange: rgb(255, 130, 0); /* #ff8200 */
-  --light-orange: rgb(255, 245, 225); /* #fff5e0 */
-  --blue: rgb(0, 100, 175); /* #0066af */
-  --stars: rgb(255, 200, 100); /* #ffc961 */
-  --light-blue: rgb(240, 250, 255); /* #f1f8fc */
-  --black: rgb(50, 50, 50);/* #303032 */
-  --gray: rgb(170, 170, 170); /* #aaa */
+  --orange: rgb(255, 130, 0);          /* #ff8200 */
+  --light-orange: rgb(255, 245, 225);  /* #fff5e0 */
+  --blue: rgb(0, 100, 175);            /* #0066af */
+  --stars: rgb(255, 200, 100);         /* #ffc961 */
+  --light-blue: rgb(240, 250, 255);    /* #f1f8fc */
+  --black: rgb(50, 50, 50);            /* #303032 */
+  --gray: rgb(170, 170, 170);          /* #aaaaaa */
 
   --radius: .5rem;
 }

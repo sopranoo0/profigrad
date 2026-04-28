@@ -67,6 +67,9 @@
 .brs-3rem{
     border-radius: 3rem;
 }
+.bd-1px-blue{
+    border: 1px solid var(--blue);
+}
 .g-ff-peace{
     font-family: 'Peace Sans', sans-serif;
 }
@@ -116,10 +119,25 @@
     text-transform: uppercase;
     transition: opacity linear .3s;
 }
-@media (max-width : 576px) {
+@media (max-width: 576px) {
     .g-btn{
         padding: 0.625rem 1.3rem .5rem 1.3rem;
         font-size: 0.625rem;
+    }
+}
+.g-btn--big{
+    padding: .75rem 5rem;
+    font-size: 1.5rem;
+    text-transform: unset;
+    border: 3px dashed #fff;
+    box-shadow: 0 0 0 10px var(--orange);
+}
+@media (max-width: 767px) {
+    .g-btn--big{
+        width: 100%;
+        max-width: 100%;
+        padding: .75rem 0;
+        font-size: 1.25rem;
     }
 }
 .g-btn-orange{
