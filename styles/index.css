@@ -7,6 +7,10 @@
 @import url('./imports/globals.css');
 @import url('./imports/media.css');
 
+main{
+    min-height: 706px;
+}
+
 .head-logo span{
     font-size: 1.875rem;
 }
