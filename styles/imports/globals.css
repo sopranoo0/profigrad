@@ -13,8 +13,14 @@
 .g-bg-white{
     background-color: #fff;
 }
+.g-bg-orange{
+    background-color: var(--orange);
+}
 .g-bg-light-orange{
     background-color: var(--light-orange);
+}
+.g-bg-stars{
+    background-color: var(--stars);
 }
 .g-color-blue{
     color: var(--blue);

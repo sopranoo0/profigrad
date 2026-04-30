@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Абонемент - ПрофиГрад</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta property="og:image" content="">
+
+  <link rel="stylesheet" href="styles/index.css?v=1.0.6">
+  <link rel="stylesheet" href="vendor/swiper/swiper.min.css">
+
+  <script type="text/javascript" src="vendor/jquery/jquery-3.7.1.min.js"></script>
+  <script type="text/javascript" src="vendor/swiper/swiper.min.js"></script>
+  <script type="text/javascript" src="vendor/swiper/swiper.thumbnails.js"></script>
+  <script type="text/javascript" src="scripts/main.js?v=1.0.6"></script>
+
+</head>
+<body>
+  <header>
+    <div class="container py-2">
+      <div class="d-flex flex-wrap flex-md-nowrap align-items-center">
+        <a href="index.html" class="head-logo d-flex align-items-center">
+          <img src="public/images/logo.png" alt="Лого ПрофиГрад">
+          <span class="d-inline-block g-ff-peace g-color-blue ms-2 ms-lg-3">ПрофиГрад</span>
+        </a>
+        <div class="d-flex align-items-center mx-auto mx-md-0 ms-md-auto">
+          <a href="#" class="d-none d-md-inline me-2 me-lg-3" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+              width="35" fill="#0077ff" viewBox="0 0 448 512">
+              <path d="M31.5 63.5C0 95 0 145.7 0 247L0 265C0 366.3 0 417 31.5 448.5S113.7 480 215 480l17.9 0c101.4 0 152.1 0 183.5-31.5S448 366.3 448 265l0-17.9c0-101.4 0-152.1-31.5-183.5S334.3 32 233 32L215 32C113.7 32 63 32 31.5 63.5zM75.6 168.3l51.1 0c1.7 85.5 39.4 121.7 69.3 129.2l0-129.2 48.2 0 0 73.7c29.5-3.2 60.5-36.8 70.9-73.7l48.2 0c-3.9 19.2-11.8 37.3-23.1 53.3s-25.7 29.5-42.5 39.6c18.7 9.3 35.2 22.4 48.4 38.5s22.9 34.9 28.3 55l-53 0c-4.9-17.5-14.8-33.1-28.6-45s-30.7-19.4-48.7-21.6l0 66.6-5.8 0c-102.1 0-160.3-70-162.8-186.5z" />
+            </svg></a>
+          <a href="#" class="d-none d-md-inline me-2 me-lg-3" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+              width="35" fill="#0088CC" viewBox="0 0 512 512">
+              <path d="M256 8a248 248 0 1 0 0 496 248 248 0 1 0 0-496zM371 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5c-2.2 .5-37.1 23.5-104.6 69.1-9.9 6.8-18.9 10.1-26.9 9.9-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3 .6-4.5 6.7-9 18.4-13.7 72.3-31.5 120.5-52.3 144.6-62.3 68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9 2 1.7 3.2 4.1 3.5 6.7 .5 3.2 .6 6.5 .4 9.8z" />
+            </svg></a>
+          <a href="tel:+79307120217" class="d-none d-md-inline g-color-blue fz-125rem g-nowrap me-2 me-lg-3">+7 (930) 712-02-17</a>
+        </div>
+        <div class="d-flex align-items-center order-md-3 ms-auto ms-md-0">
+          <a href="#" class="g-btn g-btn-orange">Задать вопрос</a>
+        </div>
+      </div>
+    </div>
+    <div class="g-bg-blue">
+      <div class="container">
+        <div class="position-relative">
+          <div class="d-flex align-items-center">
+            <a href="#" class="d-md-none" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" class="g-bg-blue" fill="#fff" viewBox="0 0 448 512">
+                <path d="M31.5 63.5C0 95 0 145.7 0 247L0 265C0 366.3 0 417 31.5 448.5S113.7 480 215 480l17.9 0c101.4 0 152.1 0 183.5-31.5S448 366.3 448 265l0-17.9c0-101.4 0-152.1-31.5-183.5S334.3 32 233 32L215 32C113.7 32 63 32 31.5 63.5zM75.6 168.3l51.1 0c1.7 85.5 39.4 121.7 69.3 129.2l0-129.2 48.2 0 0 73.7c29.5-3.2 60.5-36.8 70.9-73.7l48.2 0c-3.9 19.2-11.8 37.3-23.1 53.3s-25.7 29.5-42.5 39.6c18.7 9.3 35.2 22.4 48.4 38.5s22.9 34.9 28.3 55l-53 0c-4.9-17.5-14.8-33.1-28.6-45s-30.7-19.4-48.7-21.6l0 66.6-5.8 0c-102.1 0-160.3-70-162.8-186.5z" />
+              </svg>
+            </a>
+            <a href="#" class="d-md-none ms-2" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" class="g-bg-blue" fill="#fff" viewBox="0 0 512 512">
+                <path d="M256 8a248 248 0 1 0 0 496 248 248 0 1 0 0-496zM371 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5c-2.2 .5-37.1 23.5-104.6 69.1-9.9 6.8-18.9 10.1-26.9 9.9-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3 .6-4.5 6.7-9 18.4-13.7 72.3-31.5 120.5-52.3 144.6-62.3 68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9 2 1.7 3.2 4.1 3.5 6.7 .5 3.2 .6 6.5 .4 9.8z" />
+              </svg>
+            </a>
+            <a href="tel:+79307120217" class="head-phone d-md-none g-color-white g-nowrap ms-2">+7 (930)712-02-17</a>
+
+            <label class="hamb d-md-none ms-auto" for="side-menu"><span class="hamb-line"></span></label>
+          </div>
+          <input class="side-menu d-none" type="checkbox" id="side-menu" />
+          <nav class="nav w-100 overflow-hidden g-bg-blue">
+            <ul class="menu w-100 d-flex flex-wrap flex-column flex-md-row justify-content-md-center fw-300 mb-3 mb-md-0 m-0 px-0 " style="gap: 0;">
+              <li class="d-block"><a href="excursions_list_1.html" class="d-block g-nowrap px-2 py-2">Экскурсии на предприятия</a></li>
+              <li class="d-block"><a href="excursions_list_2.html" class="d-block g-nowrap px-2 py-2">Туристические экскурсии</a></li>
+              <li class="d-block"><a href="season.html" class="d-block g-nowrap px-2 py-2 g-bg-light-blue g-color-black fw-400">Абонемент</a></li>
+              <li class="d-block"><a href="news.html" class="d-block g-nowrap px-2 py-2">Новости</a></li>
+              <li class="d-block"><a href="about.html" class="d-block g-nowrap px-2 py-2">О проекте</a></li>
+              <li class="d-block"><a href="contacts.html" class="d-block g-nowrap px-2 py-2">Контакты</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+        <h1 class="g-color-blue g-ff-peace fz-250rem fz-md-300rem my-5">Абонемент</h1>
+    </div>
+    <section class="g-bg-stars py-4 py-sm-5">
+      <h2 class="g-color-white g-ff-peace fz-250rem text-center fz-md-300rem mt-3 mb-4 mb-sm-5">Заявка на абонемент</h2>
+      <div class="container">
+        <form class="d-block mx-auto" style="max-width: 800px;" method="post" action="#">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <div class="d-flex flex-column">
+                <input class="brs-1rem mb-4 px-4 py-3" type="text" name="name" placeholder="Ваше имя" required>
+                <input class="brs-1rem mb-4 px-4 py-3" type="text" name="phone" placeholder="Ваш телефон" required>
+                <input class="brs-1rem mb-4 px-4 py-3" type="text" name="class" placeholder="Класс" required>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6">
+              <div class="d-flex flex-column">
+                <input class="brs-1rem mb-4 px-4 py-3" type="text" name="excursion_1" placeholder="Экскурсия №1" required>
+                <input class="brs-1rem mb-4 px-4 py-3" type="text" name="excursion_2" placeholder="Экскурсия №2" required>
+                <input class="brs-1rem mb-4 px-4 py-3" type="text" name="excursion_3" placeholder="Экскурсия №3" required>
+              </div>
+            </div>
+          </div>
+          <button class="w-100 brs-1rem g-bg-orange g-color-white g-uppercase fz-110rem g-hover-opacity mb-4 px-4 py-3">Отправить</button>
+          <p class="g-color-black fz-110rem fw-300 mb-3 mb-md-4">Нажимая кнопку "Отправить", Вы соглашаетесь на обработку персональных данных и принимаете условия <a href="#" class="g-link" target="_blank">политики конфиденциальности</a></p>
+          <p class="g-color-black fz-110rem fw-700 mb-3 mb-md-4">📄 <a href="#" class="g-link" target="_blank">Скачать бланк договора</a></p>
+        </form>
+      </div>
+    </section>
+    <div class="container fz-0875rem py-5">
+      <p class="mb-4">
+        Выбор профессии — один из важнейших шагов в жизни каждого школьника. 
+        Мы знакомим детей с профессиями в реальной жизни - через экскурсии на предприятия, живое общение со специалистами и участие в практических процессах.
+      </p>
+      <div class="g-bg-light-orange brs-1rem p-3 mb-4">
+        <p class="fw-700 mb-3">
+          Абонемент - это программа профориентации для класса или группы школьников с 1 по 11 класс.
+        </p>
+        <p>
+          Участие включает 3 экскурсии на реальные предприятия по выбору. Это не разовая поездка, а системный подход, который помогает ребёнку увидеть разные направления и начать понимать, что ему действительно интересно.
+        </p>
+      </div>
+      <p class="mb-4">
+        Абонемент действует в течение учебного года.<br>
+        Если вы присоединяетесь в середине года - он оформляется на календарный год с момента начала участия.
+      </p>
+      <p class="mb-4">
+        Проект построен так, чтобы быть интересным и полезным для любого возраста:
+      </p>
+      <p class="mb-4">
+        <span class="fw-700">👶 Для учеников начальной школы (1-4 класс)</span>: Экскурсии станут захватывающим открытием мира профессий, где игра и практика объединяются.
+      </p>
+      <p class="mb-4">
+        <span class="fw-700">👦 Для подростков (5-8 класс)</span>: Это возможность реально «примерить» профессию (техника, наука, творчество) и осознанно подойти к выбору.
+      </p>
+      <p class="mb-5">
+        <span class="fw-700">🧑 Для старшеклассников (9-11 класс)</span>: Организуется особый формат - «Круглый стол» с представителями ВУЗов, техникумов, службы занятости и кадровых агентств. Это помогает увидеть реальные перспективы и сделать шаг к будущей профессии.
+      </p>
+
+      <div class="g-bg-light-blue brs-3rem px-4 py-5 p-sm-5 mb-4">
+        <div class="mx-sm-3 mx-md-5">
+          <h2 class="g-color-blue g-ff-peace fz-200rem mb-4">Что входит в абонемент?</h2>
+          <p class="mb-4">В рамках абонемента дети получают не просто экскурсии, а полноценное знакомство с профессиями:</p>
+          <p class="mb-4">
+            ☑️ 3 экскурсии на предприятия по вашему выбору<br>
+            ☑️ возможность увидеть реальные рабочие процессы изнутри<br>
+            ☑️ общение со специалистами и ответы на вопросы<br>
+            ☑️ участие в мастер-классах и практических элементах<br>
+            ☑️ сертификат каждому ребёнку<br>
+            ☑️ благодарственное письмо учителю<br>
+          </p>
+          <p class="mb-4">💰 Стоимость абонемента: <span class="fw-700">2500 рублей в год</span> с 1 участника.</p>
+          <p class="mb-4">💡 Особый вариант абонемента:</p>
+          <p>
+            Вы можете выбрать не 3 предприятия, а 2 предприятия + 1 экскурсию по Нижнему Новгороду.<br>
+            Это поможет детям не только познакомиться с профессиями, но и глубже понять историю и культуру родного края.
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-3 my-4 my-sm-5 pb-3">
+        <div class="col-6 col-md-4">
+          <div class="d-flex align-items-center justify-content-center brs-2rem h-100 p-3 px-md-5 py-md-4" style="border: 1px solid var(--blue);">
+            <h2 class="g-color-blue text-center g-ff-peace fz-175rem m-0">Условия участия:</h2>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="d-flex align-items-center justify-content-center brs-2rem h-100 p-3 px-md-5 py-md-4" style="border: 1px dashed var(--blue);">
+            <p class="text-center">минимальное количество участников - от 15 человек</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="d-flex align-items-center justify-content-center brs-2rem h-100 p-3 px-md-5 py-md-4" style="border: 1px dashed var(--blue);">
+            <p class="text-center">договор оформляется на родителя или представителя родительского комитета</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="d-flex align-items-center justify-content-center brs-2rem h-100 p-3 px-md-5 py-md-4" style="border: 1px dashed var(--blue);">
+            <p class="text-center">участие оформляется на учебный или календарный год</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="d-flex align-items-center justify-content-center brs-2rem h-100 p-3 px-md-5 py-md-4" style="border: 1px dashed var(--blue);">
+            <p class="text-center">экскурсии выбираются заранее</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="d-flex align-items-center justify-content-center brs-2rem h-100 p-3 px-md-5 py-md-4" style="border: 1px dashed var(--blue);">
+            <p class="text-center">даты и время согласовываются с группой</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-4 mb-sm-5">
+        <div class="col-12 col-md-6">
+          <div class="g-bg-light-orange brs-3rem pe-3 ps-4 ps-sm-5 py-5 mb-4 mb-md-0">
+            <h3 class="g-color-orange g-ff-peace fz-200rem mb-4">Безопасность детей 🚸</h3>
+            <p class="mb-4">Для нас безопасность 🛡️ - приоритет на каждом этапе.</p>
+            
+            <p class="fw-700 mb-2">Мы обеспечиваем:</p>
+            <div class="mb-4">
+              <p class="d-flex mb-2">
+                <span class="me-2">🚌</span>
+                <span>лицензированный транспорт и профессиональных водителей;</span>
+              </p>
+              <p class="d-flex mb-2">
+                <span class="me-2">📄</span>
+                <span>полный пакет документов и уведомление в ГИБДД о поездке;</span>
+              </p>
+              <p class="d-flex mb-2">
+                <span class="me-2">🔎</span>
+                <span>ремни безопасности и технический контроль транспорта;</span>
+              </p>
+              <p class="d-flex mb-2">
+                <span class="me-2">🗺️</span>
+                <span>опытных сопровождающих и гидов;</span>
+              </p>
+              <p class="d-flex align-items-center mb-2">
+                <span class="me-2">📞</span>
+                <span>постоянную связь с родителями и учителями во время экскурсии.</span>
+              </p>
+            </div>
+            <p>
+              Мы делаем всё, чтобы дети чувствовали себя комфортно, а родители - спокойно.
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6">
+          <div class="g-bg-light-orange brs-3rem pe-3 ps-4 ps-sm-5 py-5 mb-4 mb-md-0">
+            <h3 class="g-color-orange g-ff-peace fz-200rem mb-4">С нами удобно 👍</h3>
+            <p class="mb-4">Организация поездки для класса - это всегда ответственность и дополнительная нагрузка. Мы это понимаем. Поэтому делаем так, чтобы для вас это было спокойно и без лишних хлопот.</p>
+            
+              <p class="d-flex mb-2">
+                <span class="me-2">📅</span>
+                <span>подбираем экскурсии и согласовываем даты;</span>
+              </p>
+              <p class="d-flex mb-2">
+                <span class="me-2">✒️</span>
+                <span>оформляем все документы, взаимодействуем с площадками;</span>
+              </p>
+              <p class="d-flex mb-2">
+                <span class="me-2">✅</span>
+                <span>проверенные автобусы, сопровождающие, чёткая программа;</span>
+              </p>
+              <p class="d-flex">
+                <span class="me-2">👀</span>
+                <span>контролируем и сопровождаем весь процесс от начала до конца</span>
+              </p>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="g-ff-peace fz-200rem mb-4">Часто задаваемые вопросы:</h3>
+      <p class="mb-4">
+        <span class="fw-700">Вы обеспечиваете транспортом на экскурсии?</span><br>
+        Да. Мы можем предоставить автобусы по городу и за его пределами - от 4 часов и на любое количество мест (от 18 до 51+).<br>
+        Стоимость трансфера в абонемент не входит. 
+        Для организованных школьных поездок готовим полный пакет документов и уведомление в ГИБДД.
+      </p>
+      <p class="mb-4">
+        <span class="fw-700">Можно купить только одну экскурсию вместо абонемента?</span><br>
+        Нет. Наша цель - чтобы дети увидели разные предприятия и профессии. 
+        Только так у них формируется широкое представление о мире труда. 
+        Одна экскурсия не даст того результата, ради которого создан проект.
+      </p>
+      <p class="mb-4">
+        <span class="fw-700">Что делать, если ребёнок не сможет пойти на экскурсию?</span><br>
+        Можно найти замену: это могут быть одноклассники, брат, сестра или даже сопровождающий родитель. 
+        Если замену найти не удалось - мы предложим дополнительную дату посещения данного предприятия с другой группой. 
+        В этом случае ребёнка нужно будет сопровождать.
+      </p>
+      <p class="mb-4">
+        <span class="fw-700">А если ребёнок не попал ни на одну экскурсию и замену тоже не нашёл?</span><br>
+        Мы вернём полную стоимость абонемента. Ведь наша цель - помочь детям и родителям в профориентации, а не лишить их возможности.
+      </p>
+      <p class="mb-4">
+        <span class="fw-700">Родителям-сопровождающим тоже нужен абонемент?</span><br>
+        Нет. Но у каждого предприятия есть свои правила для сопровождающих: количество мест, возможная стоимость или другие условия. 
+        Мы заранее обо всём предупреждаем.
+      </p>
+      <p class="mb-4">
+        <span class="fw-700">Как заключается договор?</span><br>
+        Договор оформляется на физическое лицо - чаще всего это представитель родительского комитета или родитель-инициатор.<br>
+        Срок - на учебный или календарный год (в зависимости от того, когда вы присоединились).<br>
+        Заключаем договор после того, как выбраны все три экскурсии и определены дата, время и место первой.
+      </p>
+      <p class="mb-4">
+        <span class="fw-700">Какое минимальное количество детей нужно для абонемента?</span><br>
+        Минимум - 15 человек.
+      </p>
+      <p class="mb-5">
+        <span class="fw-700">Входит ли в абонемент экскурсия по области?</span><br>
+        Нет. Экскурсии по области относятся к туристическому направлению «ПрофиГрад» и не связаны напрямую с профориентацией. Там мы делаем упор на расширение кругозора детей.
+      </p>
+
+      <div class="brs-3rem p-4 p-sm-5" style="border: 1px solid var(--blue);">
+        <p class="text-center fz-110rem fw-300 mb-4 mb-sm-5">«ПрофиГрад» - это не просто экскурсии, а возможность для ребёнка увидеть мир профессий в реальной жизни и сделать первый осознанный шаг к будущему.</p>
+        <div class="d-flex flex-wrap flex-sm-row align-items-center justify-content-center">
+          <a href="#" class="col-12 col-sm-auto g-btn g-btn-blue text-center me-sm-3 mb-3 mb-sm-0">Перейти к заявке</a>
+          <a href="#" class="col-12 col-sm-auto g-btn g-btn-blue text-center">Задать вопрос</a>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+
+  <footer class="g-bg-light-blue g-color-blue fw-300 pt-5">
+    <div class="container">
+      <div class="d-flex flex-wrap flex-md-row justify-content-between gap-1rem">
+        <div class="col-12 col-sm-auto d-flex flex-column align-items-center align-items-sm-start order-1 fz-0875rem">
+          <a href="index.html" class="head-logo d-flex align-items-center mb-3">
+            <img src="public/images/logo.png" alt="Лого ПрофиГрад">
+            <span class="d-inline-block g-ff-peace g-color-blue ms-2 ms-lg-3">ПрофиГрад</span>
+          </a>
+          <span class="mb-3">Образовательные проект<br class="d-none d-sm-inline"> "ПрофиГрад"</span>
+          <a href="#" class="mb-3">Политика конфиденциальности</a>
+          <span class="g-uppercase mb-3">Сайт не является публичной<br class="d-none d-sm-inline"> офертой</span>
+        </div>
+        <div class="col-12 col-sm-auto d-flex flex-column align-items-center align-items-sm-start order-3 order-md-2">
+          <a href="excursions_list_1.html" class="fz-0875rem mb-3">Экскурсии на<br class="d-none d-sm-inline"> предприятия</a>
+          <a href="excursions_list_2.html" class="fz-0875rem mb-3">Экскурсии<br class="d-none d-sm-inline"> по Нижнему<br class="d-none d-sm-inline"> Новгороду</a>
+          <a href="excursions_list_2.html" class="fz-0875rem mb-3">Выездные<br class="d-none d-sm-inline"> экскурсии</a>
+        </div>
+        <div class="col-12 col-sm-auto d-flex flex-column align-items-center align-items-sm-start order-4 order-md-3">
+          <a href="index.html" class="fz-0875rem mb-3">Главная</a>
+          <a href="about.html" class="fz-0875rem mb-3">О проекте</a>
+          <a href="season.html" class="fz-0875rem mb-3">Абонемент</a>
+          <a href="news.html" class="fz-0875rem mb-3">Новости</a>
+          <a href="contacts.html" class="fz-0875rem mb-3">Контакты</a>
+        </div>
+        <div class="col-12 col-sm-auto d-flex flex-column align-items-center align-items-sm-start order-2 order-md-4">
+          <span class="fw-700 fz-0875rem mb-3">Контакты:</span>
+          <span class="fw-700 fz-0875rem mb-3">Елена <a href="tel:+79307120217" class="g-color-blue g-nowrap">+7 (930) 712-02-17</a></span>
+          <span class="fw-700 fz-0875rem mb-3">Ольга <a href="tel:+79307120217" class="g-color-blue g-nowrap">+7 (930) 712-02-17</a></span>
+          <div class="d-flex align-items-center gap-1rem mb-3">
+            <a href="#" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" fill="#0077ff" viewBox="0 0 448 512">
+                <path d="M31.5 63.5C0 95 0 145.7 0 247L0 265C0 366.3 0 417 31.5 448.5S113.7 480 215 480l17.9 0c101.4 0 152.1 0 183.5-31.5S448 366.3 448 265l0-17.9c0-101.4 0-152.1-31.5-183.5S334.3 32 233 32L215 32C113.7 32 63 32 31.5 63.5zM75.6 168.3l51.1 0c1.7 85.5 39.4 121.7 69.3 129.2l0-129.2 48.2 0 0 73.7c29.5-3.2 60.5-36.8 70.9-73.7l48.2 0c-3.9 19.2-11.8 37.3-23.1 53.3s-25.7 29.5-42.5 39.6c18.7 9.3 35.2 22.4 48.4 38.5s22.9 34.9 28.3 55l-53 0c-4.9-17.5-14.8-33.1-28.6-45s-30.7-19.4-48.7-21.6l0 66.6-5.8 0c-102.1 0-160.3-70-162.8-186.5z" />
+              </svg>
+            </a>
+            <a href="#" target="_blank">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" fill="#0088CC" viewBox="0 0 512 512">
+                <path d="M256 8a248 248 0 1 0 0 496 248 248 0 1 0 0-496zM371 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5c-2.2 .5-37.1 23.5-104.6 69.1-9.9 6.8-18.9 10.1-26.9 9.9-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3 .6-4.5 6.7-9 18.4-13.7 72.3-31.5 120.5-52.3 144.6-62.3 68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9 2 1.7 3.2 4.1 3.5 6.7 .5 3.2 .6 6.5 .4 9.8z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom text-center fz-0875rem py-3">
+        © ПрофиГрад, Все права защищены<br>2016-2026
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
