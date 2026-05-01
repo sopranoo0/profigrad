@@ -50,7 +50,7 @@
 }
 .fz-125rem{
     font-size: 1.5rem;
-    line-height: 1.4rem;
+    line-height: 1.8rem;
 }
 .fz-150rem{
     font-size: 1.5rem;
@@ -118,7 +118,7 @@
     transition: opacity linear .3s;
 }
 .g-hover-opacity:hover{
-    opacity: .9;
+    opacity: .8;
 }
 .g-cursor-grab{
     cursor: grab;
